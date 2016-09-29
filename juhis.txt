@@ -1,0 +1,16 @@
+1. Loo uus projekt.
+
+2. Lisa manifesti õigused (premission), mis tegelikult ei ole kohustuslik. Lisa applicationi alla API key. Key saab võtta või luua https://console.developers.google.com.
+
+3.Content_main lisada fragment klass com.google.android.gms.maps.SupportMapFragment. Edasi tuleb öelda, kust see klass tuleb - tegemist on n-ö suletud klassiga, mida ise muuta ei saa. Lisada 'com.google.android.gms:play-services:8.4.0' build.gradle dependencies alla. Gradle aitab ehitada projekti.
+
+4. Main activity-sse implements
+
+5. Järgmisena aluskaartide vahetamise võimaluse tegemine. Kõigepealt lisada menüü faili loetelu. Peale seda main activity menu meetodid kirjeldada (menüü salvestada muutujasse).
+
+6. Kasutada googlemaps apisid, nt mylocationenable jne.
+
+7. Oma tracki joonistamiseks 
+
+8. Kiiruse arvutamine ja kuvamine. Selleks tuleb luua uus muutuja locationManager ja see onCreate meetodis initsialiseerida. Lisaks parima teenuse valimiseks lisada samasse meetodisse ka Criteria ja provider. Implementeerida LocationListener ja automaatselt vaja kasutada meetodit onLocationChanged. Viimasesse meetodisse tuleb 
+

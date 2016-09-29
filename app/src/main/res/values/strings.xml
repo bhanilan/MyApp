@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sports tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_maptype">Change map type</string>
+    <string name="menu_maptype_normal">Normal</string>
+    <string name="menu_maptype_hybrid">Hybrid</string>
+    <string name="menu_maptype_satellite">Satellite</string>
+    <string name="menu_maptype_terrain">Terrain</string>
+    <string name="menu_maptype_none">None</string>
+</resources>
